@@ -33,7 +33,7 @@ public class AnalizadorLexico
         readch();
         if(preanalisis !=c) return false;
         preanalisis = ' ';
-        return false;
+        return false; //Aquí no debería decir true?
     }
     
     public Token explorar() throws IOException
